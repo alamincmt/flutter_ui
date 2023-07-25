@@ -23,6 +23,15 @@ class ElevateedButtonWithStyle extends StatelessWidget {
                 fontStyle: FontStyle.normal),
           ),
           ),
+          SizedBox(height: 10,),
+          ElevatedButton(onPressed: (){}, child: Text("text"),style: ElevatedButton.styleFrom(
+            primary: Colors.green,
+            // side: BorderSide(color: Colors.yellow, width: 5),
+            textStyle: const TextStyle(
+                color: Colors.white, fontSize: 25, fontStyle: FontStyle.normal),
+            shape: BeveledRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(10))),
+          ),),
         ],
       ),
       floatingActionButton: FloatingActionButton(
