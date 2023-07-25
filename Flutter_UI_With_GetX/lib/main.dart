@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_x_practice/views/home_page.dart';
+import 'package:get_x_practice/views/bottomsheetand_snackbar/snackbarandbottomsheet.dart';
 
 void main() {
   runApp(const MyApp());
